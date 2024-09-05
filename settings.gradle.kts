@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         maven {setUrl("https://mirrors.huaweicloud.com/repository/maven")}
 
@@ -26,4 +27,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "TestK2"
 include(":app")
- 
+include(":mylibrary")
+include(":mylibrary2")
